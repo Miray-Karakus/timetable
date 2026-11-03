@@ -1,0 +1,15 @@
+{
+  "name": "timetable-scripts",
+  "private": true,
+  "type": "module",
+  "description": "Admin tools: scrape the GAU portal, import courses into Firestore, grant the admin role.",
+  "scripts": {
+    "scrape": "node scrape-portal.mjs",
+    "import": "node import-courses.mjs",
+    "make-admin": "node make-admin.mjs"
+  },
+  "dependencies": {
+    "firebase": "^13.1.0",
+    "firebase-admin": "^14.5.0"
+  }
+}

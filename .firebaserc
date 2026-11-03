@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "demo-timetable",
+    "production": "timetable-6b4b9"
+  },
+  "targets": {},
+  "etags": {}
+}

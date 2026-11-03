@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Atkinson Hyperlegible Next", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --color-canvas: #f1f3f5;
+  --color-surface: #ffffff;
+  --color-sunken: #e8ecf0;
+  --color-line: #d5dbe1;
+  --color-line-strong: #b4bec8;
+  --color-ink: #16212b;
+  --color-ink-soft: #4a5763;
+  --color-ink-faint: #76838f;
+
+  --color-brand: #145c6b;
+  --color-brand-strong: #0e4753;
+  --color-brand-soft: #dcedef;
+  --color-on-brand: #ffffff;
+
+  --color-ok: #1e7a46;
+  --color-ok-soft: #ddf2e5;
+  --color-warn: #8f5a00;
+  --color-warn-soft: #fbefd6;
+  --color-bad: #b42318;
+  --color-bad-soft: #fce4e2;
+  --color-info: #2a53a8;
+  --color-info-soft: #e1e9f8;
+
+  --color-course-1: #e3ecfb;
+  --color-course-1-edge: #3d6fd1;
+  --color-course-1-ink: #1d3a73;
+  --color-course-2: #e2f3e8;
+  --color-course-2-edge: #2f9461;
+  --color-course-2-ink: #17482f;
+  --color-course-3: #fcf0d9;
+  --color-course-3-edge: #c98a12;
+  --color-course-3-ink: #5c3f06;
+  --color-course-4: #eee6fa;
+  --color-course-4-edge: #7d53c8;
+  --color-course-4-ink: #3b2266;
+  --color-course-5: #fbe4e9;
+  --color-course-5-edge: #c9466a;
+  --color-course-5-ink: #5e1a2d;
+  --color-course-6: #ddf2f1;
+  --color-course-6-edge: #1f8c88;
+  --color-course-6-ink: #0f4644;
+  --color-course-7: #fde8dc;
+  --color-course-7-edge: #d2672a;
+  --color-course-7-ink: #602c0e;
+  --color-course-8: #e7eaf0;
+  --color-course-8-edge: #5a6b85;
+  --color-course-8-ink: #283245;
+
+  --shadow-pop: 0 12px 32px -12px rgb(22 33 43 / 0.28), 0 2px 6px rgb(22 33 43 / 0.08);
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  .dark {
+    color-scheme: dark;
+    --color-canvas: #0f151b;
+    --color-surface: #161f27;
+    --color-sunken: #0b1015;
+    --color-line: #29343f;
+    --color-line-strong: #3b4855;
+    --color-ink: #e6ebf0;
+    --color-ink-soft: #a9b5c0;
+    --color-ink-faint: #7c8895;
+
+    --color-brand: #5fb3c2;
+    --color-brand-strong: #82c7d3;
+    --color-brand-soft: #123a42;
+    --color-on-brand: #062227;
+
+    --color-ok: #5bc98a;
+    --color-ok-soft: #12301f;
+    --color-warn: #e9b44c;
+    --color-warn-soft: #33270c;
+    --color-bad: #f0857a;
+    --color-bad-soft: #3a1714;
+    --color-info: #8caef0;
+    --color-info-soft: #172644;
+
+    --color-course-1: #1a2a47;
+    --color-course-1-edge: #6f98ea;
+    --color-course-1-ink: #d4e1fa;
+    --color-course-2: #15301f;
+    --color-course-2-edge: #55c08a;
+    --color-course-2-ink: #d0f0dc;
+    --color-course-3: #362a10;
+    --color-course-3-edge: #e2ac3f;
+    --color-course-3-ink: #f7e5bd;
+    --color-course-4: #2a1f42;
+    --color-course-4-edge: #a888e6;
+    --color-course-4-ink: #e6dbf8;
+    --color-course-5: #3b1a24;
+    --color-course-5-edge: #e57594;
+    --color-course-5-ink: #f8d8e1;
+    --color-course-6: #12302f;
+    --color-course-6-edge: #4cc0bb;
+    --color-course-6-ink: #ccefed;
+    --color-course-7: #3a2114;
+    --color-course-7-edge: #ec9157;
+    --color-course-7-ink: #f9dcc9;
+    --color-course-8: #222a36;
+    --color-course-8-edge: #8b9bb5;
+    --color-course-8-ink: #dde3ec;
+
+    --shadow-pop: 0 16px 40px -12px rgb(0 0 0 / 0.6), 0 2px 6px rgb(0 0 0 / 0.4);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .slip-preview {
+    border: 2px dashed var(--color-brand);
+    color: var(--color-ink);
+    background-color: color-mix(in oklab, var(--color-brand) 8%, var(--color-surface));
+    background-image: repeating-linear-gradient(
+      135deg,
+      color-mix(in oklab, var(--color-brand) 22%, transparent) 0 5px,
+      transparent 5px 11px
+    );
+  }
+
+  .slip-conflict {
+    border: 2px solid var(--color-bad);
+    color: var(--color-ink);
+    background-color: var(--color-bad-soft);
+    background-image: repeating-linear-gradient(
+      135deg,
+      color-mix(in oklab, var(--color-bad) 28%, transparent) 0 5px,
+      transparent 5px 11px
+    );
+  }
+
+  dialog::backdrop {
+    background: rgb(11 16 21 / 0.45);
+  }
+}
