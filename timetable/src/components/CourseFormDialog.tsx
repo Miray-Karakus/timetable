@@ -22,6 +22,7 @@ const DEPARTMENT_OPTIONS = DEPARTMENTS.map((department) => ({ value: department,
 const CATEGORY_OPTIONS = [
   { value: 'core', label: 'Curriculum course' },
   { value: 'technical', label: 'Technical elective' },
+  { value: 'free', label: 'Free elective' },
 ];
 const SEMESTER_OPTIONS =FALL_SEMESTERS.map((semester) => ({ value: String(semester), label: semesterLabel(semester) }));
 
@@ -108,7 +109,7 @@ export function CourseFormDialog({ open, course, department, semester, category,
         </div>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-[minmax(0,1fr)_minmax(0,2fr)_minmax(0,1fr)_minmax(0,1.4fr)]">
           <Input label="Section" inputMode="numeric" hint="00 = single section" error={errors.sectionNo?.message} {...register('sectionNo')} />
-          <Input label="Lecturer" placeholder="MU" error={errors.instructorName?.message} {...register('instructorName')} />
+          <Input label="Lecturer" placeholder="MU" hint="Initials, e.g. KT, AB" error={errors.instructorName?.message} {...register('instructorName')} />
           <Input label="Credits" inputMode="numeric" error={errors.credits?.message} {...register('credits')} />
           <Input label="Prerequisites" placeholder="ENG206" error={errors.prerequisites?.message} {...register('prerequisites')} />
         </div>

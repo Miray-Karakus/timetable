@@ -14,12 +14,13 @@ import { deleteCourse, useCourses } from './hooks/useCourses';
 import { useMySchedule } from './hooks/useMySchedule';
 import { useTheme } from './hooks/useTheme';
 import type { Course, FallSemester } from './types';
-import { DEPARTMENTS, FALL_SEMESTERS, sectionLabel, semesterLabel, TECHNICAL_LABEL, TERM_LABEL, yearOf } from './utils/catalog';
+import { DEPARTMENTS, FALL_SEMESTERS, FREE_LABEL, sectionLabel, semesterLabel, TECHNICAL_LABEL, TERM_LABEL, yearOf } from './utils/catalog';
 import { cn } from './utils/cn';
+import { lecturerFullNames, lecturerShort } from './utils/lecturers';
 import { findConflicts } from './utils/timeUtils';
 
 type CourseDialog = { mode: 'closed' } | { mode: 'create' } | { mode: 'edit'; course: Course };
-type YearFilter = FallSemester | 'all' | 'technical';
+type YearFilter = FallSemester | 'all' | 'technical' | 'free';
 
 const DEPARTMENT_KEY = 'tt-department';
 
@@ -43,7 +44,8 @@ function storeDepartment(department: string): void {
 
 function matches(course: Course, term: string): boolean {
   if (!term) return true;
-  const haystack = `${course.code} ${course.name} ${course.instructorName}`.toLowerCase();
+  const lecturers = `${lecturerShort(course.instructorName)} ${lecturerFullNames(course.instructorName).join(' ')}`;
+  const haystack = `${course.code} ${course.name} ${lecturers}`.toLowerCase();
   return term.toLowerCase().split(/\s+/).every((word) => haystack.includes(word));
 }
 
@@ -111,7 +113,7 @@ export default function App() {
 
   const term = search.trim();
   const inFilter = (course: Course) =>
-    year === 'all' || (year === 'technical' ? course.category === 'technical' : course.category === 'core' && course.semester === year);
+    year === 'all' || (year === 'technical' || year === 'free' ? course.category === year : course.category === 'core' && course.semester === year);
   const visibleCourses = courses.filter((course) => inFilter(course) && matches(course, term));
   const groups = [
     ...FALL_SEMESTERS.map((semester) => ({
@@ -120,6 +122,7 @@ export default function App() {
       courses: visibleCourses.filter((course) => course.category === 'core' && course.semester === semester),
     })),
     { key: 'technical', label: TECHNICAL_LABEL, courses: visibleCourses.filter((course) => course.category === 'technical') },
+    { key: 'free', label: FREE_LABEL, courses: visibleCourses.filter((course) => course.category === 'free') },
   ].filter((group) => group.courses.length > 0);
 
   const addCourse = (course: Course) => {
@@ -264,7 +267,7 @@ export default function App() {
             </div>
           ) : null}
           <p className="text-xs text-ink-faint">
-            Times come from the faculty’s published timetable (hourly slots, hh:00–hh:50). Your selection is saved in this browser only.
+            Times come from the faculty’s published timetable (hourly blocks, e.g. 09:00–10:00). Your selection is saved in this browser only.
           </p>
         </section>
 
@@ -281,20 +284,20 @@ export default function App() {
               ) : null}
             </div>
 
-            <div role="group" aria-label="Filter by year" className="flex gap-1 rounded-md bg-sunken p-1">
-              {(['all', ...FALL_SEMESTERS, 'technical'] as YearFilter[]).map((option) => (
+            <div role="group" aria-label="Filter by year" className="flex gap-0.5 overflow-x-auto rounded-md bg-sunken p-1">
+              {(['all', ...FALL_SEMESTERS, 'technical', 'free'] as YearFilter[]).map((option) => (
                 <button
                   key={option}
                   type="button"
                   aria-pressed={year === option}
                   onClick={() => setYear(option)}
                   className={cn(
-                    'h-8 flex-1 rounded px-2 text-sm font-medium',
+                    'h-8 flex-auto rounded px-1.5 text-sm font-medium whitespace-nowrap',
                     'focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand',
                     year === option ? 'bg-surface text-ink shadow-sm' : 'text-ink-soft hover:text-ink',
                   )}
                 >
-                  {option === 'all' ? 'All' : option === 'technical' ? 'Technical' : `Year ${yearOf(option)}`}
+                  {option === 'all' ? 'All' : option === 'technical' ? 'Technical' : option === 'free' ? 'Free' : `Year ${yearOf(option)}`}
                 </button>
               ))}
             </div>
@@ -366,8 +369,8 @@ export default function App() {
             open={courseDialog.mode !== 'closed'}
             course={courseDialog.mode === 'edit' ? courseDialog.course : null}
             department={department}
-            semester={year === 'all' ? 1 : year === 'technical' ? 7 : year}
-            category={year === 'technical' ? 'technical' : 'core'}
+            semester={year === 'all' || year === 'free' ? 1 : year === 'technical' ? 7 : year}
+            category={year === 'technical' || year === 'free' ? year : 'core'}
             onClose={() => setCourseDialog({ mode: 'closed' })}
           />
           <ConfirmDialog

@@ -2,6 +2,7 @@ import { Check, Minus, Pencil, Plus, Trash2 } from 'lucide-react';
 import type { Course } from '../types';
 import { sectionLabel } from '../utils/catalog';
 import { cn } from '../utils/cn';
+import { lecturerFullNames } from '../utils/lecturers';
 import { courseColors, formatMeeting } from '../utils/timeUtils';
 import { Button } from './Button';
 
@@ -22,9 +23,9 @@ export function CourseCard({ course, added, conflictWith, isAdmin, onAdd, onRemo
   const colors = courseColors(course.code);
   const section = sectionLabel(course.sectionNo);
   const label = section ? `${course.code} ${section.toLowerCase()}` : course.code;
+  const lecturers = lecturerFullNames(course.instructorName);
   const facts = [
     `${course.credits} ${course.credits === 1 ? 'credit' : 'credits'}`,
-    course.instructorName ? `Lecturer ${course.instructorName}` : null,
     course.prerequisites ? `Prereq. ${course.prerequisites}` : null,
   ].filter(Boolean);
 
@@ -48,6 +49,11 @@ export function CourseCard({ course, added, conflictWith, isAdmin, onAdd, onRemo
             {section ? <span className="text-ink-faint"> · {section}</span> : null}
           </p>
           <p className="text-[0.9375rem] leading-snug font-medium text-ink">{course.name}</p>
+          {lecturers.length > 0 ? (
+            <p className="mt-0.5 text-[0.8125rem] leading-snug text-ink-soft">
+              {lecturers.length === 1 ? 'Lecturer' : 'Lecturers'}: <span className="text-ink">{lecturers.join(', ')}</span>
+            </p>
+          ) : null}
           <p className="mt-0.5 text-xs text-ink-soft">{facts.join(' · ')}</p>
         </div>
         {added ? (

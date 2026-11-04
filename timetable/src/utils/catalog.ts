@@ -27,6 +27,8 @@ export function yearOf(semester: FallSemester): number {
 
 export const TECHNICAL_LABEL = 'Technical electives · open this term';
 
+export const FREE_LABEL = 'Free electives · open to every department';
+
 export function semesterLabel(semester: FallSemester): string {
   return `Year ${yearOf(semester)} · Semester ${semester}`;
 }

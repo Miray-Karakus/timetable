@@ -6,7 +6,7 @@ import { meetingsOverlap, toMinutes } from './timeUtils';
 export const DAY_VALUES = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'] as const;
 export const SESSION_TYPE_VALUES = ['LECTURE', 'LAB', 'TUTORIAL'] as const;
 export const SEMESTER_VALUES = ['1', '3', '5', '7'] as const;
-export const CATEGORY_VALUES = ['core', 'technical'] as const;
+export const CATEGORY_VALUES = ['core', 'technical', 'free'] as const;
 export const MAX_MEETINGS = 10;
 
 const COURSE_CODE_PATTERN = /^[A-Z]{2,10}\d{2,4}[A-Z]?$/;
@@ -66,7 +66,7 @@ export type CourseFormInput = z.input<typeof courseFormSchema>;
 export type CourseFormValues = z.output<typeof courseFormSchema>;
 
 export function emptyMeeting(): Meeting {
-  return { day: 'MON', start: '09:00', end: '10:50', room: '', type: 'LECTURE' };
+  return { day: 'MON', start: '09:00', end: '11:00', room: '', type: 'LECTURE' };
 }
 
 export function emptyCourseValues(department: string, semester: FallSemester, category: CourseCategory = 'core'): CourseFormInput {

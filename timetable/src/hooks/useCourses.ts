@@ -21,7 +21,7 @@ function toCourse(snapshot: QueryDocumentSnapshot<DocumentData>): Course {
   return {
     id: snapshot.id,
     department: String(data.department ?? ''),
-    category: data.category === 'technical' ? 'technical' : 'core',
+    category: data.category === 'technical' || data.category === 'free' ? data.category : 'core',
     semester: (Number(data.semester) || 1) as FallSemester,
     code: String(data.code ?? ''),
     name: String(data.name ?? ''),
@@ -34,7 +34,7 @@ function toCourse(snapshot: QueryDocumentSnapshot<DocumentData>): Course {
 }
 
 function compareCourses(a: Course, b: Course): number {
-  const rank = (c: Course) => (c.category === 'technical' ? 100 : c.semester);
+  const rank = (c: Course) => (c.category === 'free' ? 200 : c.category === 'technical' ? 100 : c.semester);
   return rank(a) - rank(b) || a.code.localeCompare(b.code) || a.sectionNo.localeCompare(b.sectionNo);
 }
 
