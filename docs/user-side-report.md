@@ -31,7 +31,7 @@ Students do not need to register or sign in. This keeps the entry barrier at zer
 - Courses are grouped by **Year 1–4 (semesters 1, 3, 5, 7)** and a separate group for **Technical electives open this term**.
 - **Year filter:** All / Year 1 / Year 2 / Year 3 / Year 4 / Technical.
 - **Search:** by course code, course name or lecturer initials. Multiple words are matched together (e.g. `calc mu`).
-- Each course card shows: code, section, name, credits, lecturer, prerequisites, and each class meeting as day + time + room (e.g. `Mon 12:00–13:50 · TP102`).
+- Each course card shows: code, section, name, credits, lecturer, prerequisites, and each class meeting as day + time + room (e.g. `Mon 12:00–14:00 · TP102`).
 - Courses without published class times are clearly marked: *"No class times published for this term."*
 - The list updates live: if an admin changes a course, students see the change without refreshing.
 
@@ -54,7 +54,7 @@ Students do not need to register or sign in. This keeps the entry barrier at zer
 
 ### 2.5 General usability
 - **Light / dark theme** toggle (also follows the system setting).
-- Accessible markup: labelled buttons, keyboard focus, screen-reader descriptions of each timetable block (e.g. *"MT111, Monday 12:00 to 13:50, room TP102"*).
+- Accessible markup: labelled buttons, keyboard focus, screen-reader descriptions of each timetable block (e.g. *"MT111, Monday 12:00 to 14:00, room TP102"*).
 - Clear empty, loading and error states (e.g. *"No courses match your filters"*, *"Courses couldn't be loaded. Refresh the page to try again."*).
 
 ---
@@ -70,7 +70,7 @@ All course data is taken from the faculty portal (`portal.gaueng.org`) by a scra
 | `schedule/sched.php?dept=…` | "All offered technicals" list — a technical elective is kept **only if it is open this term** |
 | `comptt/timetable.php` | 2026–2027 Fall complete timetable: day, hour, room, lecturer initials per section |
 
-Hourly slots are stored as `hh:00–hh:50`; consecutive hours in the same room are merged into one meeting (e.g. 12:00–13:50).
+Times are stored exactly as the timetable blocks (e.g. `09:00–10:00`); back-to-back blocks in the same room are merged into one meeting (e.g. 12:00–14:00).
 
 ### 3.2 Data model (one document per department + course + section)
 
@@ -85,7 +85,7 @@ Hourly slots are stored as `hh:00–hh:50`; consecutive hours in the same room a
 | `instructorName` | text | `MU` | Lecturer **initials** from the portal |
 | `credits` | number | `4` | |
 | `prerequisites` | text | `MT111` | Free text, may be empty |
-| `meetings` | list (0–10) | `{day: MON, start: 12:00, end: 13:50, room: TP102, type: LECTURE}` | Empty when no times are published |
+| `meetings` | list (0–10) | `{day: MON, start: 12:00, end: 14:00, room: TP102, type: LECTURE}` | Empty when no times are published |
 
 Every write is validated by database security rules (field names, value ranges, time format, `start < end`, allowed days and session types), so invalid data cannot be saved even by mistake.
 

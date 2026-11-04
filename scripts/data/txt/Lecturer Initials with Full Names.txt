@@ -1,0 +1,34 @@
+_AL Dr. Alla Mostepanuk
+_AS Dr. Asieh Akhlaghimofrad
+_BB Buse Bilyay
+_BD Dr. Burak Demir
+_DB Derya Bilen
+_DC Dr. Dilber Caglar
+_HK Hande Karabetca
+_LG Dr. Lale Guvenli
+_RC Rafet Enes Cakir
+_SG Sharon Gechure
+_TG Dr. Tayyaba Gul
+AA  Dr. Ata Atun
+AB  Anastashia Bamiteko
+AH  Dr. Ali Haydar
+AI  Dr. Atabak Rahimzade Ilkhechi
+CA  Dr. Changiz Ahbab
+EB  Elvin Baci
+GM  Dr. Gholamreza Mohebalizadeh
+HH  Huseyin Haksayar
+HS  Huseyin Sezer Solak
+IE  Dr. Ibrahim Ersan
+IS  Dr. Irfan Sariyildiz
+IT  Ifeoluwa Tayo
+KD  Dr. Kamil Dimililer
+KO  Dr. Kezban Ozlutas
+KT  Dr. Kamuran Turkoglu
+MD  Dr. Manta Marcelinus Dakyen
+MN  Dumebi Martina Nwajei
+MU  Dr. Mehtap Kose Ulukok
+OS  Dr. Orhan Shibliyev
+SE  Dr. Senay Kafkas
+SK  Dr. Sara Kandulu
+VT  Vahid Tabrizi
+WF  Dr. Waleed Fadel

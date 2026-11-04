@@ -10,7 +10,8 @@ makes courses public to read and admin-only to change.
 
 ```
 timetable/                 React + Vite frontend (deployed to Firebase Hosting)
-scripts/scrape-portal.mjs  pulls courses + class times from portal.gaueng.org -> scripts/data/gau-fall.json
+scripts/build-from-txt.mjs builds scripts/data/gau-fall.json from scripts/data/txt/*.txt + course-catalog.json
+scripts/scrape-portal.mjs  (older) pulled courses + class times from portal.gaueng.org
 scripts/import-courses.mjs writes that file to Firestore, signed in as an admin
 scripts/make-admin.mjs     grants the admin role with the Admin SDK (optional)
 firebase.json              Hosting + Firestore + emulator config
@@ -19,7 +20,29 @@ firestore.rules            security rules
 
 ## Course data
 
-`scripts/data/gau-fall.json` is generated from the faculty portal:
+`scripts/data/gau-fall.json` is built from the faculty's text exports in `scripts/data/txt/`:
+
+```sh
+cd scripts && node build-from-txt.mjs
+```
+
+- `List of all offered courses.txt` decides which courses exist this term (courses in the
+  timetable but not in this list are skipped; offered courses without timetable rows get no times);
+- `Current Engineering Time Table.txt` gives day, hour, section, lecturer initials and room
+  (times exactly as in the block headers, e.g. 09:00–10:00; back-to-back blocks in the same room are
+  merged into one meeting, e.g. 09:00–12:00; room `XXXXX` = none);
+- `Lecturer Initials with Full Names.txt` becomes `timetable/src/data/lecturers.ts`. The timetable
+  shows lecturer **initials** only; the course list shows the **full names**. Courses store the
+  initials in `instructorName` (e.g. `KT, AB`, without the `_` / `` ` `` faculty prefix).
+- Name, credits, prerequisites and the departments/semesters of each code come from
+  `scripts/data/course-catalog.json`. Entries marked `"inferred"` were not in the portal
+  curriculum and their details are guesses — correct them there and rebuild.
+
+After building, import with `--prune` so courses that are no longer offered are deleted.
+
+### Older source: the faculty portal
+
+`scripts/scrape-portal.mjs` generated the previous version of the data from the faculty portal:
 
 - `schedule/cdesc.php?dept=…` → code, name, credits, prerequisites of every
   department's fall-semester curriculum courses (semesters 1/3/5/7; elective
@@ -30,11 +53,10 @@ firestore.rules            security rules
   lecturer initials per section. Each hourly slot is stored as hh:00–hh:50 and
   consecutive hours in the same room are merged.
 
-Each department + course + section is one document (404 in total: 359 curriculum
-sections, 318 of all sections with class times, plus 45 technical-elective sections).
-Curriculum courses the timetable doesn't list are kept without times; admins can add
-them from the UI. Documents have a `category` field: `core` or `technical`. To refresh for a new term: `cd scripts && node scrape-portal.mjs`,
-then import again.
+The portal now blocks automated requests; `course-catalog.json` was created from that data.
+
+Each department + course + section is one document (currently 627: 154 offered courses,
+567 sections with class times). Documents have a `category` field: `core`, `technical` or `free` (free electives — all BUS/TBUS courses — listed in every department).
 
 ## Deploy to Firebase (production)
 

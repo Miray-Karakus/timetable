@@ -50,6 +50,7 @@ function slipLabel(item: TimetableItem): string {
     `${DAY_LABELS[meeting.day].long} ${meeting.start} to ${meeting.end}`,
   ];
   if (meeting.room.trim()) parts.push(`room ${meeting.room}`);
+  if (item.lecturer) parts.push(`lecturer ${item.lecturer}`);
   const variant = variantOf(item);
   if (variant === 'preview') parts.push('preview');
   if (variant === 'conflict') parts.push('time conflict');
@@ -60,13 +61,13 @@ function slipTitle(item: TimetableItem): string {
   const { meeting } = item;
   const room = meeting.room.trim() ? `, ${meeting.room}` : '';
   const section = sectionLabel(item.sectionNo);
-  const details = [section, room.replace(/^, /, '')].filter(Boolean).join(', ');
+  const details = [section, room.replace(/^, /, ''), item.lecturer].filter(Boolean).join(', ');
   return `${item.courseCode} ${item.courseName}${details ? `\n${details}` : ''}\n${DAY_LABELS[meeting.day].long} ${meeting.start}–${meeting.end}`;
 }
 
 function detailText(item: TimetableItem): string {
   const room = item.meeting.room.trim();
-  return [sectionLabel(item.sectionNo), room ? `room ${room}` : null].filter(Boolean).join(', ');
+  return [sectionLabel(item.sectionNo), room ? `room ${room}` : null, item.lecturer || null].filter(Boolean).join(', ');
 }
 
 function slipToneClasses(item: TimetableItem): string {
@@ -329,7 +330,8 @@ function GridSlip({ item, column, lane, rangeStart, density, compact }: GridSlip
   const lineBudget = Math.max(Math.floor((heightPx - 8) / density.linePx), 1);
   const room = item.meeting.room.trim();
   const section = sectionLabel(item.sectionNo);
-  const lines = (compact ? [room, section] : [item.courseName, room, section]).filter((line): line is string => Boolean(line));
+  const place = [room, item.lecturer].filter(Boolean).join(' · ');
+  const lines = (compact ? [place, section] : [item.courseName, place, section]).filter((line): line is string => Boolean(line));
   const detailLines = lines.slice(0, Math.max(lineBudget - 1, 0));
   const showTime = !compact && lineBudget >= lines.length + 2;
 

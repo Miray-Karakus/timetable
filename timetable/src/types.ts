@@ -12,8 +12,11 @@ export interface Meeting {
   type: SessionType;
 }
 
-/** `core`: a curriculum course of that semester; `technical`: a technical elective open this term. */
-export type CourseCategory = 'core' | 'technical';
+/**
+ * `core`: a curriculum course of that semester; `technical`: a technical elective open this term;
+ * `free`: a free elective (e.g. BUS courses) that students of any department can take.
+ */
+export type CourseCategory = 'core' | 'technical' | 'free';
 
 /** A fall course section, stored in the `courses` collection. */
 export interface Course {

@@ -1,0 +1,4416 @@
+{
+  "note": "Course metadata used by build-from-txt.mjs. Entries with \"inferred\" were not in the scraped curriculum: their name/credits/departments were guessed (see the note); fix them here and rebuild. Category \"free\": free electives open to every department (all BUS/TBUS courses).",
+  "courses": [
+    {
+      "code": "ACCT101",
+      "name": "Introduction to Accounting",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Industrial Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AE102",
+      "name": "Technical Drawing",
+      "credits": 2,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ],
+      "inferred": "cross-listed with CVEN205"
+    },
+    {
+      "code": "AE201",
+      "name": "Introduction to Automotive Engineering",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AE202",
+      "name": "AE202",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ],
+      "inferred": "cross-listed with CVEN202/ME202"
+    },
+    {
+      "code": "AE203",
+      "name": "Materials Science",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AE205",
+      "name": "Statics",
+      "credits": 3,
+      "prerequisites": "PS111",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AE206",
+      "name": "Dynamics",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ],
+      "inferred": "cross-listed with CVEN301"
+    },
+    {
+      "code": "AE301",
+      "name": "Thermodynamics",
+      "credits": 3,
+      "prerequisites": "AE205",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AE303",
+      "name": "Electronic Systems in Vehicles",
+      "credits": 3,
+      "prerequisites": "ENG201",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AE305",
+      "name": "Strength of Materials II",
+      "credits": 3,
+      "prerequisites": "AE202",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AE307",
+      "name": "Theory of Machines",
+      "credits": 3,
+      "prerequisites": "AE206",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AE309",
+      "name": "Machine Design I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AE401",
+      "name": "Graduation Project I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AE402",
+      "name": "Graduation Project II",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of AE401"
+    },
+    {
+      "code": "AE403",
+      "name": "Modelling of Automotive Control Systems",
+      "credits": 3,
+      "prerequisites": "AE304",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AE405",
+      "name": "Quality Planning and Control",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AIE101",
+      "name": "Introduction to AI",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AIE201",
+      "name": "Fundamentals of AI",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AIE211",
+      "name": "Data Structures and Algorithms",
+      "credits": 4,
+      "prerequisites": "ENG102",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AIE212",
+      "name": "Machine Learning",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ],
+      "inferred": "cross-listed with CEN472"
+    },
+    {
+      "code": "AIE313",
+      "name": "Neural Networks",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AIE315",
+      "name": "Expert Systems",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AIE401",
+      "name": "Graduation Project I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "AIE411",
+      "name": "Autonomous Systems",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "BIM301",
+      "name": "Mikroislemciler",
+      "credits": 4,
+      "prerequisites": "MUH206",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "BIM303",
+      "name": "Veri Yapilari ve Algoritmalar",
+      "credits": 4,
+      "prerequisites": "MUH102",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "BIM305",
+      "name": "Nesneye Yonelik Programlama",
+      "credits": 3,
+      "prerequisites": "MUH203",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "BIM307",
+      "name": "Isletim Sistemleri",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "BIM401",
+      "name": "Mezuniyet Projesi I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "BIM402",
+      "name": "Mezuniyet Projesi II",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 7,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of BIM401"
+    },
+    {
+      "code": "BIM403",
+      "name": "Yazilim Tasarimi",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "BUS101",
+      "name": "BUS101",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "free"
+        }
+      ],
+      "inferred": "service course, unknown"
+    },
+    {
+      "code": "BUS108",
+      "name": "BUS108",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "free"
+        }
+      ],
+      "inferred": "service course, unknown"
+    },
+    {
+      "code": "BUS203",
+      "name": "Introduction to Accounting",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "free"
+        }
+      ],
+      "inferred": "cross-listed with ACCT101"
+    },
+    {
+      "code": "BUS211",
+      "name": "Introduction to Economics I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "free"
+        }
+      ],
+      "inferred": "cross-listed with ECON201"
+    },
+    {
+      "code": "CAD101",
+      "name": "Computer Aided Design",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CEN217",
+      "name": "Operating Systems",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CEN301",
+      "name": "Microprocessors",
+      "credits": 4,
+      "prerequisites": "ENG206",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 5,
+          "category": "core",
+          "name": "Microprocessor"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 5,
+          "category": "core",
+          "name": "Microprocessor"
+        }
+      ]
+    },
+    {
+      "code": "CEN303",
+      "name": "Data Structures and Algorithms",
+      "credits": 4,
+      "prerequisites": "ENG102",
+      "placements": [
+        {
+          "department": "Computer Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CEN305",
+      "name": "Object Oriented Programming",
+      "credits": 3,
+      "prerequisites": "ENG203",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CEN307",
+      "name": "Operating Systems",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Computer Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CEN401",
+      "name": "Graduation Project I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CEN402",
+      "name": "Graduation Project II",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of CEN401"
+    },
+    {
+      "code": "CEN403",
+      "name": "Software Design",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CEN460",
+      "name": "Computer Graphics",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "CEN461",
+      "name": "Bioinformatics",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "CEN472",
+      "name": "Machine Learning",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "CEN561",
+      "name": "Bioinformatics",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ],
+      "inferred": "graduate twin of CEN461"
+    },
+    {
+      "code": "CEN572",
+      "name": "Machine Learning",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ],
+      "inferred": "graduate twin of CEN472"
+    },
+    {
+      "code": "CH101",
+      "name": "General Chemistry",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "COM101",
+      "name": "Introduction to Computers",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CVEN201",
+      "name": "Statics",
+      "credits": 3,
+      "prerequisites": "PS111",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CVEN202",
+      "name": "CVEN202",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ],
+      "inferred": "cross-listed with ME202/AE202"
+    },
+    {
+      "code": "CVEN205",
+      "name": "Technical Drawing",
+      "credits": 2,
+      "prerequisites": "ENG103",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CVEN301",
+      "name": "Dynamics",
+      "credits": 3,
+      "prerequisites": "CVEN201",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CVEN303",
+      "name": "Structural Analysis I",
+      "credits": 3,
+      "prerequisites": "CVEN202",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CVEN305",
+      "name": "Transportation Engineering",
+      "credits": 2,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CVEN307",
+      "name": "Soil Mechanics",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CVEN309",
+      "name": "Fluid Mechanics",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CVEN311",
+      "name": "Design of Steel Structures I",
+      "credits": 3,
+      "prerequisites": "CVEN201",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CVEN401",
+      "name": "Earthquake Engineering",
+      "credits": 3,
+      "prerequisites": "CVEN202",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CVEN403",
+      "name": "Computer Application in Civil Eng.",
+      "credits": 3,
+      "prerequisites": "CVEN303",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CVEN407",
+      "name": "Reinforced Concrete Structure II",
+      "credits": 3,
+      "prerequisites": "CVEN306",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "CVEN409",
+      "name": "Construction Eng. and Management",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "technical",
+          "name": "Construction Engineering and Management"
+        }
+      ]
+    },
+    {
+      "code": "CVEN440",
+      "name": "Foundation Engineering",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "CVEN473",
+      "name": "Energy Efficiency in Buildings",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "CVEN477",
+      "name": "High Performance Concrete",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "CVEN480",
+      "name": "Project Planning",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "CVEN490",
+      "name": "Graduation Project",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Civil Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ],
+      "inferred": "same slot as the other graduation projects"
+    },
+    {
+      "code": "ECON201",
+      "name": "Introduction to Economics I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Industrial Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "EEN301",
+      "name": "Electronic Circuits I",
+      "credits": 4,
+      "prerequisites": "ENG202",
+      "placements": [
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "EEN303",
+      "name": "Circuit Theory",
+      "credits": 4,
+      "prerequisites": "ENG201",
+      "placements": [
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "technical",
+          "credits": 3,
+          "prerequisites": ""
+        }
+      ]
+    },
+    {
+      "code": "EEN304",
+      "name": "Feedback Control Systems",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "EEN305",
+      "name": "Electrical Measurement and Inst.",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 5,
+          "category": "core",
+          "prerequisites": "ENG201"
+        }
+      ]
+    },
+    {
+      "code": "EEN307",
+      "name": "Signals and Systems",
+      "credits": 3,
+      "prerequisites": "MT112",
+      "placements": [
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "technical",
+          "prerequisites": ""
+        }
+      ]
+    },
+    {
+      "code": "EEN347",
+      "name": "Electromagnetic Theory",
+      "credits": 4,
+      "prerequisites": "PS112",
+      "placements": [
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "EEN401",
+      "name": "Graduation Project I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "EEN402",
+      "name": "Graduation Project II",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of EEN401"
+    },
+    {
+      "code": "EEN403",
+      "name": "Communication Systems",
+      "credits": 3,
+      "prerequisites": "EEN307",
+      "placements": [
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "EEN475",
+      "name": "Electrical Machinery",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "EEN484",
+      "name": "Power Supply & Energy Transmission",
+      "credits": 3,
+      "prerequisites": "EEN303",
+      "placements": [
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "EEN575",
+      "name": "Electrical Machinery",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ],
+      "inferred": "graduate twin of EEN475"
+    },
+    {
+      "code": "EEN584",
+      "name": "Power Supply & Energy Transmission",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ],
+      "inferred": "graduate twin of EEN484"
+    },
+    {
+      "code": "ELM301",
+      "name": "Elektronik Devreler I",
+      "credits": 4,
+      "prerequisites": "MUH202",
+      "placements": [
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ELM303",
+      "name": "Devre Teorisi",
+      "credits": 4,
+      "prerequisites": "MUH201",
+      "placements": [
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ELM305",
+      "name": "Elektrik Olcme ve Enstrumentasyon",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ELM307",
+      "name": "Sinyal ve Sistemler",
+      "credits": 3,
+      "prerequisites": "MTM112",
+      "placements": [
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ELM347",
+      "name": "Elektromagnetik Teori I",
+      "credits": 4,
+      "prerequisites": "FIZ112",
+      "placements": [
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ELM401",
+      "name": "Mezuniyet Projesi I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ELM402",
+      "name": "Mezuniyet Projesi II",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 7,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of ELM401"
+    },
+    {
+      "code": "ELM403",
+      "name": "Haberlesme Sistemleri",
+      "credits": 3,
+      "prerequisites": "ELM307",
+      "placements": [
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ELM469",
+      "name": "Aydinlatmanin Temelleri",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "ELM488",
+      "name": "Yuksek Gerilim Teknigi",
+      "credits": 3,
+      "prerequisites": "ELM303",
+      "placements": [
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "ENE201",
+      "name": "Introduction to Fluid Mechanics",
+      "credits": 4,
+      "prerequisites": "PS112",
+      "placements": [
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ENE301",
+      "name": "Electromechanical Energy Conversion",
+      "credits": 4,
+      "prerequisites": "ENE202",
+      "placements": [
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ENE303",
+      "name": "Alternative Energy Technologies",
+      "credits": 4,
+      "prerequisites": "CH101",
+      "placements": [
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ENE305",
+      "name": "Petroleum and Natural Gas Tech.",
+      "credits": 4,
+      "prerequisites": "ENE201",
+      "placements": [
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ENE401",
+      "name": "Graduation Project I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ENE402",
+      "name": "Graduation Project II",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of ENE401"
+    },
+    {
+      "code": "ENE403",
+      "name": "Power Electronics and Motion Cnt. Sys.",
+      "credits": 4,
+      "prerequisites": "ENE202",
+      "placements": [
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ENE405",
+      "name": "Energy and Environment",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "ENE416",
+      "name": "Modern Thermodynamics for Energy Systems",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "ENG101",
+      "name": "Introduction to Computers",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ENG102",
+      "name": "Computer Programming I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ],
+      "inferred": "precedes ENG203 Computer Programming II"
+    },
+    {
+      "code": "ENG103",
+      "name": "Computer Aided Design",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ENG106",
+      "name": "ENG106",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ],
+      "inferred": "unknown"
+    },
+    {
+      "code": "ENG201",
+      "name": "Fundamentals of Electrical Engineering",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ENG203",
+      "name": "Computer Programming II",
+      "credits": 4,
+      "prerequisites": "ENG102",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ENG205",
+      "name": "Logic Circuit Design",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ENG401",
+      "name": "Engineering Ethics",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "ENG503",
+      "name": "ENG503",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ],
+      "inferred": "graduate course, unknown"
+    },
+    {
+      "code": "ENGL001",
+      "name": "English I",
+      "credits": 2,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ENGL002",
+      "name": "English II",
+      "credits": 2,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of ENGL001"
+    },
+    {
+      "code": "FIZ111",
+      "name": "Genel Fizik I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IE303",
+      "name": "Fundamentals of Work Study",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Industrial Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IE307",
+      "name": "Operations Research I",
+      "credits": 3,
+      "prerequisites": "ENG204",
+      "placements": [
+        {
+          "department": "Industrial Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IE311",
+      "name": "Engineering Statistics",
+      "credits": 3,
+      "prerequisites": "MT207",
+      "placements": [
+        {
+          "department": "Industrial Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IE401",
+      "name": "Industrial Engineering Project",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IE402",
+      "name": "Industrial Engineering Project II",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of IE401"
+    },
+    {
+      "code": "IE405",
+      "name": "Production Planning and Control",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IE407",
+      "name": "Quality Planning and Control",
+      "credits": 3,
+      "prerequisites": "MT207",
+      "placements": [
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IE410",
+      "name": "System Simulation",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "IE418",
+      "name": "Project Planning & Management",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "code": "IM201",
+      "name": "Statik",
+      "credits": 3,
+      "prerequisites": "FIZ111",
+      "placements": [
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IM205",
+      "name": "Teknik Cizim",
+      "credits": 2,
+      "prerequisites": "MUH103",
+      "placements": [
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IM301",
+      "name": "Dinamik",
+      "credits": 3,
+      "prerequisites": "IM201",
+      "placements": [
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IM303",
+      "name": "Yapisal Analiz I",
+      "credits": 3,
+      "prerequisites": "IM202",
+      "placements": [
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IM305",
+      "name": "Ulastirma Muhendisligi",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IM307",
+      "name": "Zemin Mekanigi",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IM309",
+      "name": "Akiskanlar Mekanigi",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IM311",
+      "name": "Celik Yapilarin Tasarimi I",
+      "credits": 3,
+      "prerequisites": "IM201",
+      "placements": [
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IM401",
+      "name": "Deprem Muhendisligi",
+      "credits": 3,
+      "prerequisites": "IM202",
+      "placements": [
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IM403",
+      "name": "Ins. Muh. Bilgisayar Uygulamalari",
+      "credits": 3,
+      "prerequisites": "IM202",
+      "placements": [
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IM407",
+      "name": "Betonarme Yapilar II",
+      "credits": 3,
+      "prerequisites": "IM306",
+      "placements": [
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IM409",
+      "name": "Yapim Muh. ve Yonetimi",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "IM440",
+      "name": "Temel Muhendisligi",
+      "credits": 3,
+      "prerequisites": "IM307",
+      "placements": [
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "KIM101",
+      "name": "Genel Kimya",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ME102",
+      "name": "Technical Drawing",
+      "credits": 2,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ],
+      "inferred": "cross-listed with CVEN205"
+    },
+    {
+      "code": "ME201",
+      "name": "Introduction to Mechanical Engineering",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ME202",
+      "name": "ME202",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ],
+      "inferred": "cross-listed with CVEN202/AE202"
+    },
+    {
+      "code": "ME203",
+      "name": "Materials Science",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ME205",
+      "name": "Statics",
+      "credits": 3,
+      "prerequisites": "PS111",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ME206",
+      "name": "Dynamics",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ],
+      "inferred": "cross-listed with CVEN301"
+    },
+    {
+      "code": "ME301",
+      "name": "Thermodynamics",
+      "credits": 3,
+      "prerequisites": "PS112",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ME303",
+      "name": "Fluid Mechanics",
+      "credits": 3,
+      "prerequisites": "MT206",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 7,
+          "category": "technical",
+          "prerequisites": ""
+        }
+      ]
+    },
+    {
+      "code": "ME305",
+      "name": "Strength of Materials II",
+      "credits": 3,
+      "prerequisites": "ME202",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ME307",
+      "name": "Theory of Machines",
+      "credits": 3,
+      "prerequisites": "ME206",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ME309",
+      "name": "Machine Design I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ME401",
+      "name": "Graduation Project I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ME402",
+      "name": "Graduation Project II",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of ME401"
+    },
+    {
+      "code": "ME403",
+      "name": "Machine Elements II",
+      "credits": 3,
+      "prerequisites": "ME308",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "ME404",
+      "name": "Feedback Control Systems",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ],
+      "inferred": "cross-listed with EEN304"
+    },
+    {
+      "code": "ME405",
+      "name": "Quality Planning and Control",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "MT111",
+      "name": "Calculus I",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "MT112",
+      "name": "Calculus II",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of MT111"
+    },
+    {
+      "code": "MT207",
+      "name": "Probability Theory",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "MT211",
+      "name": "Calculus III",
+      "credits": 4,
+      "prerequisites": "MT112",
+      "placements": [
+        {
+          "department": "Automotive Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "MT307",
+      "name": "Probability Theory",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "MT511",
+      "name": "MT511",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 7,
+          "category": "technical"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 7,
+          "category": "technical"
+        }
+      ],
+      "inferred": "graduate course, unknown"
+    },
+    {
+      "code": "MTM111",
+      "name": "Matematik I",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "MTM112",
+      "name": "Matematik II",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of MTM111"
+    },
+    {
+      "code": "MTM207",
+      "name": "Olasilik ve Istatistik",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "MTM211",
+      "name": "Matematik III",
+      "credits": 4,
+      "prerequisites": "MTM112",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "MUH101",
+      "name": "Bilgisayara Giris",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "MUH102",
+      "name": "Bilgisayar Programlamasi I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        }
+      ],
+      "inferred": "precedes MUH203 Bilgisayar Programlamasi II"
+    },
+    {
+      "code": "MUH103",
+      "name": "Bilgisayar Destekli Cizim",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "MUH201",
+      "name": "Elektrik Muhendisligi Temelleri",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "MUH203",
+      "name": "Bilgisayar Programlamasi II",
+      "credits": 4,
+      "prerequisites": "MUH102",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "MUH204",
+      "name": "MUH204",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        }
+      ],
+      "inferred": "unknown"
+    },
+    {
+      "code": "MUH205",
+      "name": "Mantik Devreleri Tasarimi",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "NH001",
+      "name": "National History I",
+      "credits": 0,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 7,
+          "category": "core",
+          "name": "Devrim Tarihi I"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 7,
+          "category": "core",
+          "name": "Devrim Tarihi I"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 7,
+          "category": "core",
+          "name": "Devrim Tarihi I"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "NH002",
+      "name": "National History II",
+      "credits": 0,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 7,
+          "category": "core",
+          "name": "Devrim Tarihi II"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 7,
+          "category": "core",
+          "name": "Devrim Tarihi II"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 7,
+          "category": "core",
+          "name": "Devrim Tarihi II"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 7,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of NH001"
+    },
+    {
+      "code": "PS111",
+      "name": "General Physics I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "PS112",
+      "name": "General Physics II",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of PS111"
+    },
+    {
+      "code": "QS101",
+      "name": "Introduction to Quantity Surveying",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "QS103",
+      "name": "Communication Skills",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "QS201",
+      "name": "Environmental Science & Services",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "QS203",
+      "name": "Construction Technology I",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "QS205",
+      "name": "Teamwork and Leadership",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "QS207",
+      "name": "Property Economics and Financial Accounting",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "QS301",
+      "name": "Construction Design and Sustainability",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "QS303",
+      "name": "Planning Estimating and Cost Management",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "QS305",
+      "name": "Project Management Principles",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "QS307",
+      "name": "Introduction to Construction Measurement",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "QS401",
+      "name": "Graduation Project I",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "QS403",
+      "name": "Professional Ethics",
+      "credits": 4,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Quantity Surveying",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "SEN101",
+      "name": "Introduction to Programming",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "SEN201",
+      "name": "Fundamentals of Software Engineering",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Software Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "SEN211",
+      "name": "Data Structures and Algorithms",
+      "credits": 4,
+      "prerequisites": "ENG102",
+      "placements": [
+        {
+          "department": "Software Engineering",
+          "semester": 3,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "SEN313",
+      "name": "Software Requirements Analysis & Specification",
+      "credits": 3,
+      "prerequisites": "SEN201",
+      "placements": [
+        {
+          "department": "Software Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "SEN315",
+      "name": "Security of Software Systems",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Software Engineering",
+          "semester": 5,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "SEN401",
+      "name": "Graduation Project I",
+      "credits": 2,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Software Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "SEN411",
+      "name": "Software Process and Management",
+      "credits": 3,
+      "prerequisites": "SEN313",
+      "placements": [
+        {
+          "department": "Software Engineering",
+          "semester": 7,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "SOCY100",
+      "name": "Introduction to Sociology",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ],
+      "inferred": "service course"
+    },
+    {
+      "code": "TBUS101",
+      "name": "TBUS101",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "free"
+        }
+      ],
+      "inferred": "service course, unknown"
+    },
+    {
+      "code": "TBUS203",
+      "name": "TBUS203",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "free"
+        }
+      ],
+      "inferred": "service course, unknown"
+    },
+    {
+      "code": "TBUS211",
+      "name": "TBUS211",
+      "credits": 3,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "free"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "free"
+        }
+      ],
+      "inferred": "service course, unknown"
+    },
+    {
+      "code": "TFL101",
+      "name": "Turkish as Foreign Lang. I",
+      "credits": 0,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "TFL102",
+      "name": "Turkish as Foreign Lang. II",
+      "credits": 0,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of TFL101"
+    },
+    {
+      "code": "TURK001",
+      "name": "Turkish I",
+      "credits": 0,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "core",
+          "name": "Turk Dili I"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "core",
+          "name": "Turk Dili I"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 5,
+          "category": "core",
+          "name": "Turkce I"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ]
+    },
+    {
+      "code": "TURK002",
+      "name": "Turkish II",
+      "credits": 0,
+      "prerequisites": "",
+      "placements": [
+        {
+          "department": "Artificial Intelligence Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Automotive Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Bilgisayar Muhendisligi",
+          "semester": 1,
+          "category": "core",
+          "name": "Turk Dili II"
+        },
+        {
+          "department": "Civil Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Computer Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Electrical & Electronics Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Elektrik & Elektronik Muhendisligi",
+          "semester": 1,
+          "category": "core",
+          "name": "Turk Dili II"
+        },
+        {
+          "department": "Energy Systems Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Industrial Engineering",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Insaat Muhendisligi",
+          "semester": 5,
+          "category": "core",
+          "name": "Turkce II"
+        },
+        {
+          "department": "Mechanical Engineering",
+          "semester": 5,
+          "category": "core"
+        },
+        {
+          "department": "Quantity Surveying",
+          "semester": 1,
+          "category": "core"
+        },
+        {
+          "department": "Software Engineering",
+          "semester": 1,
+          "category": "core"
+        }
+      ],
+      "inferred": "Part II of TURK001"
+    }
+  ]
+}
